@@ -1,0 +1,49 @@
+doc_id,file,person_id,doc_type,condition,name,dob,id_last4,annual_income,valid_until,institution,quality,expected_findings
+P01_aadhaar,documents/P01_aadhaar_clear.png,P01,aadhaar,clear,Imran Sharma,1975-11-02,9083,,,,clear,
+P01_income_certificate,documents/P01_income_certificate_clear.png,P01,income_certificate,clear,Imran Sharma,,,40000,2027-05-03,,clear,
+P01_marksheet,documents/P01_marksheet_clear.png,P01,marksheet,clear,Imran Sharma,,,,,City Polytechnic,clear,
+P02_aadhaar,documents/P02_aadhaar_blurry.png,P02,aadhaar,blurry,Lakshmi Devi,1965-02-18,3909,,,,blurry,QUALITY_BLURRY
+P02_income_certificate,documents/P02_income_certificate_blurry.png,P02,income_certificate,blurry,Lakshmi Devi,,,240000,2027-10-09,,blurry,QUALITY_BLURRY
+P02_marksheet,documents/P02_marksheet_blurry.png,P02,marksheet,blurry,Lakshmi Devi,,,,,Govt Senior Secondary School,blurry,QUALITY_BLURRY
+P03_aadhaar,documents/P03_aadhaar_cropped.png,P03,aadhaar,cropped,Mohan Kumar,1985-03-10,9482,,,,cropped,QUALITY_CROPPED
+P03_income_certificate,documents/P03_income_certificate_cropped.png,P03,income_certificate,cropped,Mohan Kumar,,,40000,2027-06-24,,cropped,QUALITY_CROPPED
+P03_marksheet,documents/P03_marksheet_cropped.png,P03,marksheet,cropped,Mohan Kumar,,,,,City Polytechnic,cropped,QUALITY_CROPPED
+P04_aadhaar,documents/P04_aadhaar_lowres.png,P04,aadhaar,lowres,Sunita Verma,1995-02-19,8657,,,,blurry,QUALITY_BLURRY
+P04_income_certificate,documents/P04_income_certificate_lowres.png,P04,income_certificate,lowres,Sunita Verma,,,240000,2027-11-07,,blurry,QUALITY_BLURRY
+P04_marksheet,documents/P04_marksheet_lowres.png,P04,marksheet,lowres,Sunita Verma,,,,,City Polytechnic,blurry,QUALITY_BLURRY
+P05_aadhaar,documents/P05_aadhaar_clear.png,P05,aadhaar,clear,Kavita Yadav,2000-03-23,8757,,,,clear,
+P05_income_certificate,documents/P05_income_certificate_expired.png,P05,income_certificate,expired,Kavita Yadav,,,90000,2026-10-26,,clear,EXPIRED
+P05_marksheet,documents/P05_marksheet_clear.png,P05,marksheet,clear,Kavita Yadav,,,,,Model Degree College,clear,
+P06_aadhaar,documents/P06_aadhaar_clear.png,P06,aadhaar,clear,Lakshmi Sharma,1998-06-05,8955,,,,clear,
+P06_income_certificate,documents/P06_income_certificate_expiring_soon.png,P06,income_certificate,expiring_soon,Lakshmi Sharma,,,300000,2026-12-12,,clear,EXPIRING_SOON
+P06_marksheet,documents/P06_marksheet_clear.png,P06,marksheet,clear,Lakshmi Sharma,,,,,City Polytechnic,clear,
+P07_aadhaar,documents/P07_aadhaar_clear.png,P07,aadhaar,clear,Anil Reddy,1954-02-09,9746,,,,clear,
+P07_income_certificate,documents/P07_income_certificate_name_mismatch.png,P07,income_certificate,name_mismatch,Ani. Reddy,,,300000,2027-09-13,,clear,NAME_MISMATCH
+P07_marksheet,documents/P07_marksheet_clear.png,P07,marksheet,clear,Anil Reddy,,,,,Govt Senior Secondary School,clear,
+P08_aadhaar,documents/P08_aadhaar_missing_field.png,P08,aadhaar,missing_field,Gurpreet Khan,,2366,,,,clear,MISSING_FIELD
+P08_income_certificate,documents/P08_income_certificate_clear.png,P08,income_certificate,clear,Gurpreet Khan,,,150000,2027-04-30,,clear,
+P08_marksheet,documents/P08_marksheet_clear.png,P08,marksheet,clear,Gurpreet Khan,,,,,Govt Senior Secondary School,clear,
+P09_aadhaar,documents/P09_aadhaar_clear.png,P09,aadhaar,clear,Gurpreet Patel,1985-05-05,5632,,,,clear,
+P09_income_certificate,documents/P09_income_certificate_clear.png,P09,income_certificate,clear,Gurpreet Patel,,,40000,2027-06-18,,clear,
+P09_marksheet,documents/P09_marksheet_clear.png,P09,marksheet,clear,Gurpreet Patel,,,,,Govt Senior Secondary School,clear,
+P10_aadhaar,documents/P10_aadhaar_blurry.png,P10,aadhaar,blurry,Mohan Gupta,1964-01-16,0268,,,,blurry,QUALITY_BLURRY
+P10_income_certificate,documents/P10_income_certificate_blurry.png,P10,income_certificate,blurry,Mohan Gupta,,,90000,2027-08-30,,blurry,QUALITY_BLURRY
+P10_marksheet,documents/P10_marksheet_blurry.png,P10,marksheet,blurry,Mohan Gupta,,,,,Govt Senior Secondary School,blurry,QUALITY_BLURRY
+P11_aadhaar,documents/P11_aadhaar_cropped.png,P11,aadhaar,cropped,Suresh Verma,1989-11-22,6661,,,,cropped,QUALITY_CROPPED
+P11_income_certificate,documents/P11_income_certificate_cropped.png,P11,income_certificate,cropped,Suresh Verma,,,150000,2027-10-11,,cropped,QUALITY_CROPPED
+P11_marksheet,documents/P11_marksheet_cropped.png,P11,marksheet,cropped,Suresh Verma,,,,,Govt Senior Secondary School,cropped,QUALITY_CROPPED
+P12_aadhaar,documents/P12_aadhaar_lowres.png,P12,aadhaar,lowres,Mohan Devi,1963-08-06,1092,,,,blurry,QUALITY_BLURRY
+P12_income_certificate,documents/P12_income_certificate_lowres.png,P12,income_certificate,lowres,Mohan Devi,,,240000,2027-05-10,,blurry,QUALITY_BLURRY
+P12_marksheet,documents/P12_marksheet_lowres.png,P12,marksheet,lowres,Mohan Devi,,,,,City Polytechnic,blurry,QUALITY_BLURRY
+P13_aadhaar,documents/P13_aadhaar_clear.png,P13,aadhaar,clear,Anil Kumar,1954-04-20,9571,,,,clear,
+P13_income_certificate,documents/P13_income_certificate_expired.png,P13,income_certificate,expired,Anil Kumar,,,40000,2026-09-12,,clear,EXPIRED
+P13_marksheet,documents/P13_marksheet_clear.png,P13,marksheet,clear,Anil Kumar,,,,,City Polytechnic,clear,
+P14_aadhaar,documents/P14_aadhaar_clear.png,P14,aadhaar,clear,Gurpreet Singh,1955-03-04,8038,,,,clear,
+P14_income_certificate,documents/P14_income_certificate_expiring_soon.png,P14,income_certificate,expiring_soon,Gurpreet Singh,,,90000,2026-12-15,,clear,EXPIRING_SOON
+P14_marksheet,documents/P14_marksheet_clear.png,P14,marksheet,clear,Gurpreet Singh,,,,,Model Degree College,clear,
+P15_aadhaar,documents/P15_aadhaar_clear.png,P15,aadhaar,clear,Ramesh Verma,1969-11-28,2538,,,,clear,
+P15_income_certificate,documents/P15_income_certificate_name_mismatch.png,P15,income_certificate,name_mismatch,Ram. Verma,,,240000,2027-12-02,,clear,NAME_MISMATCH
+P15_marksheet,documents/P15_marksheet_clear.png,P15,marksheet,clear,Ramesh Verma,,,,,City Polytechnic,clear,
+P16_aadhaar,documents/P16_aadhaar_missing_field.png,P16,aadhaar,missing_field,Pooja Yadav,,8750,,,,clear,MISSING_FIELD
+P16_income_certificate,documents/P16_income_certificate_clear.png,P16,income_certificate,clear,Pooja Yadav,,,40000,2027-08-10,,clear,
+P16_marksheet,documents/P16_marksheet_clear.png,P16,marksheet,clear,Pooja Yadav,,,,,City Polytechnic,clear,

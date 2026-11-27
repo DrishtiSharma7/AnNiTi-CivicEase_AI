@@ -1,0 +1,9 @@
+condition,field_accuracy
+blurry,0.6875
+clear,0.75
+cropped,0.875
+expired,1.0
+expiring_soon,0.8333333333333334
+lowres,0.625
+missing_field,0.75
+name_mismatch,0.6666666666666666

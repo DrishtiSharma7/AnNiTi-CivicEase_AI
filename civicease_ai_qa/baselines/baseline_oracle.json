@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-20",
+  "extractor": "oracle",
+  "fingerprint": {
+    "prompt_extraction": "5afb0bdd8153",
+    "prompt_rules": "15ee5f58cf5e",
+    "models": "gemini-2.5-flash|gemini-2.5-flash-lite|mock=True|escalate=0.75",
+    "scheme_rules": "de5cce08c84c",
+    "skills": "918787dc0be1",
+    "rule_code": "80d63a180402",
+    "dataset": "efbaee56449f"
+  },
+  "metrics": {
+    "extraction.field_accuracy": 1.0,
+    "extraction.doc_type_accuracy": 1.0,
+    "extraction.hallucination_rate": 0.0,
+    "extraction.missing_rate": 0.0,
+    "extraction.wrong_rate": 0.0,
+    "extraction.unknown_rate": 0.0,
+    "extraction.ece": 0.01000000000000012,
+    "extraction.name_mismatch_recall": 1.0,
+    "extraction.name_mismatch_precision": 1.0,
+    "extraction.expiry_recall": 1.0,
+    "extraction.missing_field_recall": 1.0,
+    "eligibility.eligibility_agreement": 1.0,
+    "eligibility.false_likely_met": 0.0,
+    "language.language_parse_accuracy": 0.7777777777777778,
+    "language.wrong_values": 0.0
+  }
+}

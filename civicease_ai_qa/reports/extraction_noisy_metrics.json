@@ -1,0 +1,38 @@
+{
+  "documents": 48,
+  "field_accuracy": 0.753968253968254,
+  "missing_rate": 0.06349206349206349,
+  "wrong_rate": 0.18253968253968253,
+  "hallucination_rate": 0.0,
+  "doc_type_accuracy": 1.0,
+  "unknown_rate": 0.0,
+  "ece": 0.17932203389830492,
+  "accuracy_by_field": {
+    "annual_income": 0.875,
+    "dob": 0.7142857142857143,
+    "id_last4": 0.75,
+    "institution": 0.6875,
+    "name": 0.7916666666666666,
+    "valid_until": 0.625
+  },
+  "accuracy_by_condition": {
+    "blurry": 0.6875,
+    "clear": 0.75,
+    "cropped": 0.875,
+    "expired": 1.0,
+    "expiring_soon": 0.8333333333333334,
+    "lowres": 0.625,
+    "missing_field": 0.75,
+    "name_mismatch": 0.6666666666666666
+  },
+  "accuracy_by_doc_type": {
+    "aadhaar": 0.7608695652173914,
+    "income_certificate": 0.7708333333333334,
+    "marksheet": 0.71875
+  },
+  "name_mismatch_precision": 0.18181818181818182,
+  "name_mismatch_recall": 1.0,
+  "expiry_recall": 1.0,
+  "expiry_precision": 1.0,
+  "missing_field_recall": 1.0
+}

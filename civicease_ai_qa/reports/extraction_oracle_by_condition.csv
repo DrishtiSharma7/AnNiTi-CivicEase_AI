@@ -1,0 +1,9 @@
+condition,field_accuracy
+blurry,1.0
+clear,1.0
+cropped,1.0
+expired,1.0
+expiring_soon,1.0
+lowres,1.0
+missing_field,1.0
+name_mismatch,1.0

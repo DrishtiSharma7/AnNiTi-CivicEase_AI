@@ -1,0 +1,8 @@
+audio_file,language,reference,hypothesis
+audio/hi_01.wav,hi,मेरी उम्र साठ साल है,
+audio/hi_02.wav,hi,मेरे परिवार की सालाना आमदनी साठ हजार रुपये है,
+audio/hi_03.wav,hi,मैं बिहार में रहता हूँ और किसान हूँ,
+audio/hi_04.wav,hi,मुझे वृद्धावस्था पेंशन के लिए आवेदन करना है,
+audio/en_01.wav,en,I am sixty years old,
+audio/en_02.wav,en,my family income is sixty thousand rupees a year,
+audio/en_03.wav,en,I want to apply for the old age pension,

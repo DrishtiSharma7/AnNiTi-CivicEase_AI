@@ -1,0 +1,37 @@
+case_id,field,utterance,language,expected
+L01,age,62,en,62
+L02,age,62 साल,hi,62
+L03,age,५५,hi,55
+L04,age,I am 40 years old,en,40
+L05,age,बासठ,hi,62
+L06,age,sixty two,en,62
+L07,age,500,en,REASK
+L08,age,very old,en,REASK
+L09,annual_income,"₹60,000",en,60000
+L10,annual_income,60 हजार,hi,60000
+L11,annual_income,2.5 lakh,en,250000
+L12,annual_income,ढाई लाख,hi,250000
+L13,annual_income,1 lakh,en,100000
+L14,annual_income,५० हज़ार,hi,50000
+L15,annual_income,kuch nahi,hi,REASK
+L16,annual_income,pata nahi,hi,REASK
+L17,occupation,kisan,hi,FARMER
+L18,occupation,मैं किसान हूँ,hi,FARMER
+L19,occupation,student,en,STUDENT
+L20,occupation,छात्र,hi,STUDENT
+L21,occupation,mazdoor,hi,DAILY_WAGE
+L22,occupation,मजदूर,hi,DAILY_WAGE
+L23,occupation,I run a small shop,en,SELF_EMPLOYED
+L24,occupation,nokri,hi,SALARIED
+L25,category,sc,en,SC
+L26,category,OBC,en,OBC
+L27,category,सामान्य,hi,GENERAL
+L28,category,general category,en,GENERAL
+L29,category,scheduled caste,en,SC
+L30,category,purple,en,REASK
+L31,state,Bihar,en,BIHAR
+L32,state,बिहार,hi,बिहार
+L33,state,x,en,REASK
+L34,gender,महिला,hi,FEMALE
+L35,gender,female,en,FEMALE
+L36,gender,aurat,hi,FEMALE

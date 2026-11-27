@@ -1,0 +1,21 @@
+{
+  "title": "Document extraction result (model output, before masking)",
+  "type": "object",
+  "required": ["doc_type", "fields", "confidence", "quality"],
+  "properties": {
+    "doc_type": {"enum": ["aadhaar", "income_certificate", "land_record", "caste_certificate", "marksheet", "ration_card", "unknown"]},
+    "fields": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {"type": "string"}, "dob": {"type": "string"}, "id_number": {"type": ["string", "number"]},
+        "annual_income": {"type": "number", "minimum": 0}, "valid_until": {"type": "string"}, "category": {"type": "string"},
+        "land_holding_hectares": {"type": "number", "minimum": 0}, "institution": {"type": "string"}
+      }
+    },
+    "field_confidence": {"type": "object"},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "quality": {"enum": ["clear", "blurry", "cropped", "unknown"]},
+    "warnings": {"type": "array", "items": {"type": "string"}}
+  }
+}

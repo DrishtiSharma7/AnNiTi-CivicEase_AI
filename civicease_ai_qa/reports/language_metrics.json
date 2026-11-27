@@ -1,0 +1,9 @@
+{
+  "cases": 36,
+  "language_parse_accuracy": 1.0,
+  "wrong_values": 0,
+  "by_language": {
+    "en": 1.0,
+    "hi": 1.0
+  }
+}

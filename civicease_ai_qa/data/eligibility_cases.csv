@@ -1,0 +1,33 @@
+case_id,scheme_id,profile_json,expected,why
+E01,pm-kisan,"{""occupation"": ""FARMER"", ""land_holding_hectares"": 2.0}",likely_met,both criteria met
+E02,pm-kisan,"{""occupation"": ""FARMER"", ""land_holding_hectares"": 0}",not_met,land must be > 0
+E03,pm-kisan,"{""occupation"": ""FARMER""}",unknown,land missing
+E04,pm-kisan,"{""occupation"": ""STUDENT"", ""land_holding_hectares"": 1.0}",not_met,not a farmer
+E05,pm-kisan,"{""land_holding_hectares"": 1.0}",unknown,occupation missing
+E06,pm-kisan,{},unknown,nothing known
+E07,pm-jay,"{""annual_income"": 250000}",likely_met,boundary: limit is inclusive
+E08,pm-jay,"{""annual_income"": 250001}",not_met,boundary: one rupee over
+E09,pm-jay,"{""annual_income"": 0}",likely_met,zero income is valid
+E10,pm-jay,{},unknown,income missing
+E11,pm-jay,"{""annual_income"": null}",unknown,"explicit null is unknown, not zero"
+E12,post-matric-scholarship,"{""is_student"": true, ""annual_income"": 250000}",likely_met,boundary met
+E13,post-matric-scholarship,"{""is_student"": false, ""annual_income"": 100000}",not_met,not a student
+E14,post-matric-scholarship,"{""is_student"": true}",unknown,income missing
+E15,post-matric-scholarship,"{""is_student"": false}",not_met,a failed rule beats an unknown one
+E16,post-matric-scholarship,"{""annual_income"": 300000}",not_met,income too high even though student is unknown
+E17,old-age-pension,"{""age"": 60, ""annual_income"": 100000}",likely_met,both boundaries inclusive
+E18,old-age-pension,"{""age"": 59, ""annual_income"": 100000}",not_met,boundary: one year short
+E19,old-age-pension,"{""age"": 60, ""annual_income"": 100001}",not_met,boundary: one rupee over
+E20,old-age-pension,"{""age"": 75}",unknown,income missing
+E21,old-age-pension,"{""annual_income"": 50000}",unknown,age missing
+E22,old-age-pension,"{""age"": 30}",not_met,"age fails, income unknown"
+E23,old-age-pension,"{""age"": ""62"", ""annual_income"": 50000}",unknown,age typed as text: never guess
+E24,maternity-benefit,"{""gender"": ""FEMALE"", ""age"": 19}",likely_met,boundary met
+E25,maternity-benefit,"{""gender"": ""FEMALE"", ""age"": 18}",not_met,boundary: one year short
+E26,maternity-benefit,"{""gender"": ""MALE"", ""age"": 30}",not_met,gender rule
+E27,maternity-benefit,"{""gender"": ""FEMALE""}",unknown,age missing
+E28,skill-training,"{""age"": 15}",likely_met,lower boundary
+E29,skill-training,"{""age"": 45}",likely_met,upper boundary
+E30,skill-training,"{""age"": 46}",not_met,above upper boundary
+E31,skill-training,"{""age"": 14}",not_met,below lower boundary
+E32,skill-training,{},unknown,age missing

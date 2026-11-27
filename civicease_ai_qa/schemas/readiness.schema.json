@@ -1,0 +1,24 @@
+{
+  "title": "Readiness report (Doc Auditor output)",
+  "type": "object",
+  "required": ["blocking", "warning", "passed", "unknown", "ready", "disclaimer"],
+  "properties": {
+    "blocking": {"type": "array", "items": {"$ref": "finding"}},
+    "warning": {"type": "array", "items": {"$ref": "finding"}},
+    "passed": {"type": "array", "items": {"$ref": "finding"}},
+    "unknown": {"type": "array", "items": {"$ref": "finding"}},
+    "ready": {"type": "boolean"},
+    "disclaimer": {"type": "string"}
+  },
+  "definitions": {
+    "finding": {
+      "type": "object",
+      "required": ["code", "severity", "message", "fix"],
+      "properties": {
+        "code": {"type": "string"},
+        "severity": {"enum": ["blocking", "warning", "passed", "unknown"]},
+        "message": {"type": "string"}, "fix": {"type": "string"}, "doc_id": {"type": ["string", "null"]}
+      }
+    }
+  }
+}

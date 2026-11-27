@@ -1,0 +1,11 @@
+{
+  "title": "Eligibility verdict",
+  "type": "object",
+  "required": ["overall", "criteria", "preliminary_estimate"],
+  "properties": {
+    "overall": {"enum": ["likely_met", "unknown", "not_met"]},
+    "criteria": {"type": "array", "items": {"type": "object", "required": ["id", "label", "status"],
+                 "properties": {"id": {"type": "string"}, "label": {"type": "string"}, "status": {"enum": ["met", "unknown", "not_met"]}}}},
+    "preliminary_estimate": {"enum": [true]}
+  }
+}
